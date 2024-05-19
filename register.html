@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <h2>Регистрация читателя</h2>
+    <form action="register.php" method="POST">
+        <label for="lastname">Фамилия:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        
+        <label for="firstname">Имя:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        
+        <label for="patronymic">Отчество:</label><br>
+        <input type="text" id="patronymic" name="patronymic" required><br><br>
+        
+        <label for="birthday">Дата рождения:</label><br>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+        
+        <label for="group">Номер группы:</label><br>
+        <input type="text" id="group" name="group" required><br><br>
+        
+        <label for="studentIDcard">Номер студенческой карты:</label><br>
+        <input type="text" id="studentIDcard" name="studentIDcard" required><br><br>
+        
+        <label for="login">Логин:</label><br>
+        <input type="text" id="login" name="login" required><br><br>
+        
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+</body>
+</html>
