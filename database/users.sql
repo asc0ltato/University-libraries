@@ -68,7 +68,6 @@ GRANT SELECT ON dbo.book TO LibrarianRole;
 GRANT SELECT ON dbo.publishinghouse TO LibrarianRole;
 GRANT SELECT, UPDATE, INSERT ON dbo.listgetbooks TO LibrarianRole;
 GRANT SELECT, UPDATE, INSERT, DELETE ON dbo.sample TO LibrarianRole;
-
 GRANT EXECUTE ON dbo.AddBookSample TO LibrarianRole;
 GRANT EXECUTE ON dbo.DeleteBookSample TO LibrarianRole;
 GRANT EXECUTE ON dbo.IssueBook TO LibrarianRole;
